@@ -99,7 +99,7 @@ body {
 
     .media {
       margin-left: auto;
-      margin-right: auto;
+      margin-right: auto !important;
     }
   }
 
