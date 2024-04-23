@@ -1,0 +1,2 @@
+# informatyka-project
+Say Gex
