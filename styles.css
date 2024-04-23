@@ -88,18 +88,32 @@ body {
 @media only screen and (max-width: 800px) {
   #parallax > .group > .layer:nth-child(1) > .stLayerContainer {
     flex-direction: column;
-    img {
-      width: 90%;
-    }
   }
 
   .container {
     max-width: 96% !important;
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+    .media {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   img {
     width: 94%;
   }
+
+  #spinningFisz {
+    width: 96% !important;
+  }
+}
+
+#spinningFisz {
+  width: 45%;
 }
 
 a {
@@ -395,11 +409,12 @@ section {
   .media {
     float: left;
     margin-right: 20px;
+    margin-bottom: 10px;
     width: 600px;
   }
 
   iframe {
-    min-height: 400px;
+    aspect-ratio: 4/3;
   }
 
   h1 {
