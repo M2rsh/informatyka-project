@@ -1,2 +1,2 @@
 # informatyka-project
-Say Gex
+Say Gex (ignore my terrible css)
